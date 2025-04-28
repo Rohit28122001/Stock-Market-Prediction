@@ -13,7 +13,7 @@ Dataset:
   Msft_with_time.pkl, intel_with_time_pkl, cisco_with_time.pkl: Sentiment analysis with time stamps.
   Msft_importable.pkl, intel_importable.pkl, cisco_importable.pkl: Combining the dataset with historical data.
 
-Note: The data mining took about 6-10 hours for preparation of the dataset (On GTX 1650Ti GPU with Ryzen -7 4600H CPU), so keep in mind that similar time will be required to generate it again. Also, this was made using Anaconda with python 3.10 and may cause problems while running in google colab as it has 3.06.
+Note: The data mining process took approximately 4–8 hours for the preparation of the dataset (on an RTX 2060 GPU with an Intel i5 10th Gen CPU). Please keep in mind that a similar duration will be required if you plan to regenerate it. Additionally, this was developed using Anaconda with Python 3.10, which may cause compatibility issues if run on Google Colab, as Colab typically uses Python 3.6.
 
 There are are total of 6 python notebooks:
 Data Mining: MSFT_DATA_MINING.ipynb, INTEL_DATA_MINING.ipynb, CISCO_DATA_MINING.ipynb
